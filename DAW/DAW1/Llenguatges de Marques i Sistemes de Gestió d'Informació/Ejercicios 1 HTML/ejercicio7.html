@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario sencillo</title>
+</head>
+<body>
+    <h2>Formulario de registro</h2>
+    <form>
+        <!-- Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <!-- Correo -->
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <!-- Género -->
+        <p>Género:</p>
+        <input type="radio" id="hombre" name="genero" value="hombre">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label><br>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label><br><br>
+
+        <!-- Selección desplegable -->
+        <label for="pais">Selecciona tu país:</label>
+        <select id="pais" name="pais">
+            <option value="espana">España</option>
+            <option value="mexico">México</option>
+            <option value="argentina">Argentina</option>
+        </select><br><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
