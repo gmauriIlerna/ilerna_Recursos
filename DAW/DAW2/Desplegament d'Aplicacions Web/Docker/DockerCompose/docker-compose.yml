@@ -1,0 +1,35 @@
+name: daw2
+services:
+  frontend:
+    container_name: php
+    build:
+      context: ./php-container
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - red
+
+  db:
+    container_name: mysql
+    build:
+      context: ./mysql-container
+      dockerfile: Dockerfile
+    ports:
+      - "3306:3306"
+      - "33060:33060"
+    environment:
+      variable: holaMundo
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - red
+
+volumes:
+  mysql_data:
+
+networks:
+  red:
+    driver: bridge
