@@ -2,18 +2,21 @@ name: daw2
 services:
   frontend:
     container_name: php
+    profiles: ["dev", "prod"]
     build:
       context: ./php-container
       dockerfile: Dockerfile
     ports:
       - "8080:80"
     depends_on:
-      - db
+      db:
+        condition: service_healthy
     networks:
       - red
 
   db:
     container_name: mysql
+    profiles: ["dev", "patata"]
     build:
       context: ./mysql-container
       dockerfile: Dockerfile
@@ -22,6 +25,12 @@ services:
       - "33060:33060"
     environment:
       variable: holaMundo
+      MYSQL_ROOT_PASSWORD: 1234
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
