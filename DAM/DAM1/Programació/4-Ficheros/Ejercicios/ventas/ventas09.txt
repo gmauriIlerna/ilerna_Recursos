@@ -1,0 +1,5 @@
+2025-09-01|Cuaderno A5|Papelería|4|2.50
+09-01|Bolígrafo azul|Papelería|10|0.80
+2025-09-02|Taza logo|Merchandising|2.5|6.00
+2025-09-03|USB 32GB|Tecnología|3|9.50
+2025-09-05|Camiseta M|Merchandising|1|12.00

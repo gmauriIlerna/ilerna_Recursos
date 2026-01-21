@@ -1,0 +1,4 @@
+2025-10-01|Cuaderno A5|Papelería|6|2.50
+2025-10-01|Bolígrafo azul|Papelería|5|0.80
+2025-10-02|USB 32GB|Tecnología|2|9.50
+2025-10-03|Mochila|Tecnología|1|25.00
