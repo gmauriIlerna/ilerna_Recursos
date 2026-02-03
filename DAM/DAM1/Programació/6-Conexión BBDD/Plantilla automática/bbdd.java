@@ -25,6 +25,8 @@ public class BBDD {
 		String entorno = "";
 		boolean valido = false;
 		while (!valido) {
+			// PODEIS HARDCODEAR ESTAS VARIABLES SI VAIS A USAR SIEMPRE LAS MISMAS
+			//VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 			System.out.println("Selecciona centro o fuera de centro (CENTRO/FUERA):");
 			entorno = scan.nextLine().trim().toLowerCase();
 
