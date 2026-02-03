@@ -39,6 +39,8 @@ public class BBDD {
 				: "jdbc:oracle:thin:@//oracle.ilerna.com:1521/XEPDB2";
 
 		// 2) Pedir credenciales (con trim para evitar espacios raros)
+		// PODEIS HARDCODEAR ESTAS CREDENCIALES SI VAIS A USAR SIEMPRE LAS MISMAS
+		//VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 		System.out.println("¿Usuario?");
 		String user = scan.nextLine().trim();
 
