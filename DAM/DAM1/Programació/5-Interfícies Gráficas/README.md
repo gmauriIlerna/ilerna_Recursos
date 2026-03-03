@@ -7,9 +7,6 @@ Recursos DAM/DAW Programació
 Aquest repositori conté exemples de **JavaFX** pensats per executar-se
 amb **Eclipse** i **projectes modulars** (amb `module-info.java`).
 
-> ✅ Objectiu: que puguis clonar/baixar el projecte i fer-lo córrer a
-> Eclipse sense morir en l'intent.
-
 ------------------------------------------------------------------------
 
 ## Requisits previs
