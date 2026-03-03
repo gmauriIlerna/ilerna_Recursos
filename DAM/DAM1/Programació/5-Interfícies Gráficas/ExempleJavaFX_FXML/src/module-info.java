@@ -1,4 +1,4 @@
-module HolaMundo {
+module ExempleJavaFx_FXML {
 	requires javafx.graphics;
 	requires javafx.controls;
 	requires javafx.fxml;
