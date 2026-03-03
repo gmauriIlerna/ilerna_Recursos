@@ -13,7 +13,7 @@ amb **Eclipse** i **projectes modulars** (amb `module-info.java`).
 
 -   **JDK** instal·lat (recomanat **JDK 17 o 21**).
 -   **Eclipse IDE for Java Developers** (o similar).
--   **JavaFX SDK** (Gluon / OpenJFX).
+-   **JavaFX SDK** (Gluon).
 
 > Important: JavaFX **no ve inclòs** al JDK. Cal baixar-lo a part.
 
@@ -27,11 +27,11 @@ amb **Eclipse** i **projectes modulars** (amb `module-info.java`).
 3.  Descomprimeix-lo en una ruta estable (evita espais i carpetes
     temporals), per exemple:
 
-Windows: C:`\java`{=tex}`\javafx`{=tex}-sdk-21.0.2
+Windows: C:'\ruta-al-teu\javafx-sdk-XX'
 
-Linux: /opt/javafx/javafx-sdk-21.0.2
+Linux: /opt/javafx/javafx-sdk-XX
 
-macOS: /Applications/javafx-sdk-21.0.2
+macOS: /Applications/javafx-sdk-XX
 
 A dins hi ha d'haver la carpeta: .../javafx-sdk-XX/lib
 
@@ -50,7 +50,7 @@ Variables 3. Nova variable: - Nom: JAVAFX_HOME - Valor: ruta del JavaFX
 
 Linux/macOS (bash o zsh):
 
-export JAVAFX_HOME=/opt/javafx/javafx-sdk-21.0.2
+export JAVAFX_HOME=/opt/javafx/javafx-sdk-XX
 
 ------------------------------------------------------------------------
 
@@ -66,7 +66,7 @@ export JAVAFX_HOME=/opt/javafx/javafx-sdk-21.0.2
 
 ## 4) Crear o importar projecte
 
-Crear nou: 1. File → New → Java Project 2. Tria JDK 17 o 21 3. Marca
+Crear nou: 1. File → New → Java Project 2. Tria JDK adequat. Marca
 Create module-info.java
 
 ------------------------------------------------------------------------
@@ -84,13 +84,14 @@ Create module-info.java
 
 Exemple mínim:
 
+```Java
 module nom.del.teu.module { 
     requires javafx.controls; 
     requires javafx.fxml;
-
     opens nom.del.teu.package to javafx.fxml;
     exports nom.del.teu.package;
 }
+```
 
 ------------------------------------------------------------------------
 
@@ -105,7 +106,7 @@ javafx.controls,javafx.fxml
 
 Opció amb ruta directa (Windows):
 
---module-path "C:`\java`{=tex}`\javafx`{=tex}-sdk-21.0.2`\lib`{=tex}"
+--module-path "C:\ruta-al-teu\javafx-sdk-XX\lib"
 --add-modules javafx.controls,javafx.fxml
 
 Linux/macOS:
