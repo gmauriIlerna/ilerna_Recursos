@@ -111,7 +111,7 @@ Opció amb ruta directa (Windows):
 
 Linux/macOS:
 
---module-path "/opt/javafx/javafx-sdk-21.0.2/lib" --add-modules
+--module-path "/opt/javafx/javafx-sdk-XX/lib" --add-modules
 javafx.controls,javafx.fxml
 
 Apply → Run
