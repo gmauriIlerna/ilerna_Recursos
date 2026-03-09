@@ -80,7 +80,7 @@ Create module-info.java
 
 ------------------------------------------------------------------------
 
-## 6) Configurar module-info.java
+## 6) Configurar module-info.java (opcional)
 
 Exemple mínim:
 
