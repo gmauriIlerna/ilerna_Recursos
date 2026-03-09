@@ -1,0 +1,77 @@
+.root {
+    -fx-font-family: "System";
+    -fx-background-color: #f6f7fb;
+}
+
+/* MENU */
+.menu-bar {
+    -fx-background-color: white;
+    -fx-border-color: #e6e7ee;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* CARD */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+    -fx-border-color: #e6e7ee;
+    -fx-border-radius: 16;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.10), 16, 0.15, 0, 2);
+}
+
+/* TITLES */
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #1f2330;
+    -fx-alignment: center;
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-opacity: 0.65;
+}
+
+/* FIELDS */
+.field-label {
+    -fx-font-size: 12px;
+    -fx-opacity: 0.75;
+    -fx-font-weight: bold;
+}
+
+.field {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #e6e7ee;
+    -fx-background-color: #fbfbfe;
+    -fx-padding: 10 12;
+}
+
+/* BUTTONS */
+.button {
+    -fx-background-radius: 10;
+    -fx-padding: 10 14;
+    -fx-background-color: #eef0f6;
+    -fx-text-fill: #1f2330;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #e6e8f0;
+}
+
+.button.primary {
+    -fx-background-color: #2f6fed;
+    -fx-text-fill: white;
+}
+
+.button.primary:hover {
+    -fx-background-color: #295fd0;
+}
+
+/* Hint */
+.hint {
+    -fx-font-size: 12px;
+    -fx-opacity: 0.6;
+}

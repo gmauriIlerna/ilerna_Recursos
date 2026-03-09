@@ -1,0 +1,127 @@
+.root {
+    -fx-font-family: "System";
+    -fx-background-color: #f6f7fb;
+}
+
+/* MENU */
+.menu-bar {
+    -fx-background-color: white;
+    -fx-border-color: #e6e7ee;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* TABLERO */
+.board {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-padding: 14;
+    -fx-border-color: #e6e7ee;
+    -fx-border-radius: 14;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.10), 14, 0.15, 0, 2);
+}
+
+/* TEXTOS DEL TABLERO */
+.cell-title {
+    -fx-font-size: 22px;
+    -fx-opacity: 0.65;
+}
+
+.cell-type {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.85;
+}
+
+/* BARRA INFERIOR */
+.bottom-bar {
+    -fx-background-color: transparent;
+}
+
+/* TARJETAS */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-padding: 14;
+    -fx-border-color: #e6e7ee;
+    -fx-border-radius: 14;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.10), 14, 0.15, 0, 2);
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.75;
+}
+
+.big-text {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.stat {
+    -fx-font-size: 15px;
+    -fx-opacity: 0.85;
+}
+
+.events {
+    -fx-font-size: 14px;
+    -fx-opacity: 0.85;
+}
+
+/* BOTONES */
+.button {
+    -fx-background-radius: 10;
+    -fx-padding: 8 14;
+    -fx-background-color: #eef0f6;
+    -fx-text-fill: #1f2330;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #e6e8f0;
+}
+
+.button.primary {
+    -fx-background-color: #2f6fed;
+    -fx-text-fill: white;
+}
+
+.button.primary:hover {
+    -fx-background-color: #295fd0;
+}
+
+/* SCROLL */
+.objects-scroll {
+    -fx-background-color: transparent;
+}
+
+.objects-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* ========================= */
+/*        JUGADORES          */
+/* ========================= */
+
+.player {
+    -fx-stroke: white;
+    -fx-stroke-width: 3;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.45), 8, 0.35, 0, 2);
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* Colores por ID (robusto en JavaFX 21) */
+#P1 { -fx-fill: #2f6fed; }  /* azul */
+#P2 { -fx-fill: #ef4444; }  /* rojo */
+#P3 { -fx-fill: #22c55e; }  /* verde */
+#P4 { -fx-fill: #facc15; }  /* amarillo */
+
+/* Si quieres marcar el jugador activo, añade/quita esta clase desde Java */
+.current-player {
+    -fx-effect: dropshadow(gaussian, gold, 12, 0.6, 0, 0);
+}
