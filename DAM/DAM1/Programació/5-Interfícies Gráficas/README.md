@@ -13,7 +13,7 @@ amb **Eclipse** i **projectes modulars** (amb `module-info.java`).
 
 -   **JDK** instal·lat (recomanat **JDK 17 o 21**).
 -   **Eclipse IDE for Java Developers** (o similar).
--   **JavaFX SDK** (Gluon).
+-   **JavaFX SDK** (Gluon) [Link](https://gluonhq.com/products/javafx/).
 
 > Important: JavaFX **no ve inclòs** al JDK. Cal baixar-lo a part.
 
