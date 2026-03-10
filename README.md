@@ -21,7 +21,7 @@ Aquí trobaràs materials utilitzats durant el curs: exercicis, exemples, projec
 - 🧰 [Tipus de recursos](#-tipus-de-recursos)
 - ⬇️ [Com clonar el repositori](#️-com-clonar-el-repositori)
 - 📁 [Com descarregar només una carpeta](#-com-descarregar-només-una-carpeta)
-- ⬇️ [Notes](#️-notes)
+- ℹ️ [Notes](#️-notes)
 
 ---
 
