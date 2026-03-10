@@ -13,6 +13,18 @@ Aquí trobaràs materials utilitzats durant el curs: exercicis, exemples, projec
 
 ---
 
+## 📑 Índex
+
+- 🎓 [Cicles formatius](#-cicles-formatius)
+- 📂 [Estructura del repositori](#-estructura-del-repositori)
+- 🚀 [Com utilitzar aquest repositori](#-com-utilitzar-aquest-repositori)
+- 🧰 [Tipus de recursos](#-tipus-de-recursos)
+- ⬇️ [Com clonar el repositori](#️-com-clonar-el-repositori)
+- 📁 [Com descarregar només una carpeta](#-com-descarregar-només-una-carpeta)
+- ⬇️ [Notes](#️-notes)
+
+---
+
 # 🎓 Cicles formatius
 
 ## 💻 DAM — Desenvolupament d'Aplicacions Multiplataforma
