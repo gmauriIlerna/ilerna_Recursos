@@ -4,9 +4,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/gmauriIlerna/ilerna_Recursos)
 ![GitHub license](https://img.shields.io/github/license/gmauriIlerna/ilerna_Recursos)
 
-Repositori de **recursos i materials** per a les assignatures dels cicles formatius de **Grau Superior d'Informàtica**.
+![DAM](https://img.shields.io/badge/DAM-Multiplataforma-blue)
+![DAW](https://img.shields.io/badge/DAW-Web-green)
 
-Aquí trobaràs apunts, exercicis, exemples de codi i altres materials utilitzats durant el curs.
+Repositori de **recursos, apunts i exemples de codi** per a les assignatures dels cicles formatius de **Grau Superior d'Informàtica (DAM i DAW)**.
+
+Aquí trobaràs materials utilitzats durant el curs: exercicis, exemples, projectes i documentació de suport.
 
 ---
 
@@ -68,6 +71,14 @@ ilerna_Recursos
     └── DAW2
         └── Desplegament d'Aplicacions Web
 ```
+---
+
+# 🚀 Com utilitzar aquest repositori
+
+1. Entra a la carpeta del teu **cicle (DAM o DAW)**.
+2. Selecciona el **curs** corresponent.
+3. Obre la carpeta de la **assignatura**.
+4. Descarrega o clona els recursos que necessitis.
 
 ---
 
@@ -85,11 +96,11 @@ En aquest repositori pots trobar:
 
 # ⬇️ Com clonar el repositori
 
-
+```bash
 git clone https://github.com/gmauriIlerna/ilerna_Recursos.git
 
 cd ilerna_Recursos
-
+```
 
 ---
 
