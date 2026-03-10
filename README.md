@@ -4,8 +4,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/gmauriIlerna/ilerna_Recursos)
 ![GitHub license](https://img.shields.io/github/license/gmauriIlerna/ilerna_Recursos)
 
-![DAM](https://img.shields.io/badge/DAM-Multiplataforma-blue)
-![DAW](https://img.shields.io/badge/DAW-Web-green)
+[![DAM](https://img.shields.io/badge/DAM-Multiplataforma-blue)](./DAM)
+[![DAW](https://img.shields.io/badge/DAW-Web-green)](./DAW)
 
 Repositori de **recursos, apunts i exemples de codi** per a les assignatures dels cicles formatius de **Grau Superior d'Informàtica (DAM i DAW)**.
 
